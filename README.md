@@ -103,6 +103,5 @@ CREATE TABLE entries (
         ON DELETE CASCADE
 );
 
-<img width="1918" height="912" alt="image" src="https://github.com/user-attachments/assets/f8f7aaae-a6e1-4ec1-a39e-0b932385c191" />
 
 
