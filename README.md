@@ -65,8 +65,7 @@ The application follows **MVC (Model-View-Controller)**.
 
 ## ⚙️ Setup & Installation
 ```bash
-
-### 1. Clone the repository
+1. Clone the repository
 
 git clone https://github.com/yourusername/your-repo-name.git
 
