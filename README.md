@@ -64,6 +64,7 @@ The application follows **MVC (Model-View-Controller)**.
 ---
 
 ## ⚙️ Setup & Installation
+```bash
 
 ### 1. Clone the repository
 
