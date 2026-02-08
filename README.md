@@ -39,28 +39,6 @@ The application follows **MVC (Model-View-Controller)**.
 | Server | Apache Tomcat |
 
 ---
-
-## 📂 Project Structure
-
-├── src/
-│ ├── DBConnection.java
-│ └── MainServlet.java
-│
-├── webapp/
-│ ├── login.jsp
-│ ├── dashboard.jsp
-│ ├── entry.jsp
-│ ├── reports.jsp
-│ ├── viewCustomers.jsp
-│ ├── updateCustomer.jsp
-│ ├── updateEntry.jsp
-│ ├── updateAdmin.jsp
-│ ├── header.jsp
-│ ├── footer.jsp
-│ └── error.jsp
-
----
-
 ## ⚙️ Setup & Installation
 ```bash
 1. Clone the repository
