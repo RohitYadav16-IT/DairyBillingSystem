@@ -106,5 +106,26 @@ CREATE TABLE entries (
 ```
 <img width="1918" height="920" alt="image" src="https://github.com/user-attachments/assets/3364df65-2c3b-4695-8c5f-98f14ebf8520" />
 
+<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/0a6f913f-f1f0-43b2-8869-82977d84deeb" />
+
+<img width="1917" height="715" alt="image" src="https://github.com/user-attachments/assets/33670c3f-ac4d-4ffc-9f80-4d25467ede75" />
+
+<img width="1917" height="582" alt="image" src="https://github.com/user-attachments/assets/e252ee46-c39d-48ec-b45e-9c045c763eb2" />
+
+<img width="1918" height="700" alt="image" src="https://github.com/user-attachments/assets/ebdc87bc-e879-45ca-82a8-5471c2e77ba9" />
+
+<img width="1918" height="693" alt="image" src="https://github.com/user-attachments/assets/63375820-cfe2-46bc-83db-1a06079c1c7c" />
+
+<img width="1897" height="911" alt="image" src="https://github.com/user-attachments/assets/c84dc104-b938-4809-b3f2-7cf8804f98e1" />
+
+<img width="1917" height="911" alt="image" src="https://github.com/user-attachments/assets/0e351ba3-ff2e-410f-91c6-15900ae73760" />
+
+
+
+
+
+
+
+
 
 
