@@ -104,6 +104,7 @@ CREATE TABLE entries (
 );
 
 ```
+<img width="1918" height="920" alt="image" src="https://github.com/user-attachments/assets/3364df65-2c3b-4695-8c5f-98f14ebf8520" />
 
 
 
