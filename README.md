@@ -92,6 +92,7 @@ Create Database
 CREATE DATABASE customer_entry_db;
 USE customer_entry_db;
 
+
 Admin Table
 CREATE TABLE admin (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -102,6 +103,7 @@ CREATE TABLE admin (
 INSERT INTO admin (username, password)
 VALUES ('admin', 'admin123');
 
+
 Customers Table
 CREATE TABLE customers (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -110,6 +112,7 @@ CREATE TABLE customers (
     email VARCHAR(100),
     address VARCHAR(255)
 );
+
 
 Entries Table
 CREATE TABLE entries (
