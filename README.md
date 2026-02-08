@@ -69,6 +69,8 @@ The application follows **MVC (Model-View-Controller)**.
 
 git clone https://github.com/yourusername/your-repo-name.git
 
+---
+
 2. Open in IDE
 
 Import into Eclipse / IntelliJ as a Dynamic Web Project.
