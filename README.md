@@ -1,4 +1,4 @@
-# Web-Based Customer and Entry Management System
+Dairy Billing System
 
 A Java web application built using **JSP, Servlets, JDBC, and MySQL** to manage customers, entries, and administrative operations.  
 The system allows secure login, data entry, updates, and report generation through an MVC-based architecture.
