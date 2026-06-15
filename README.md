@@ -66,42 +66,49 @@ private static final String USER = "root";
 private static final String PASS = "password";
 
 🗄️ Database Schema (IMPORTANT)
-Create Database
-CREATE DATABASE customer_entry_db;
-USE customer_entry_db;
+CREATE DATABASE DairyBillingSystem;
+USE DairyBillingSystem;
 
-
-Admin Table
 CREATE TABLE admin (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR(50) NOT NULL,
-    password VARCHAR(50) NOT NULL
+    admin_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
 );
 
-INSERT INTO admin (username, password)
-VALUES ('admin', 'admin123');
-
-
-Customers Table
-CREATE TABLE customers (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    phone VARCHAR(20),
-    email VARCHAR(100),
-    address VARCHAR(255)
+CREATE TABLE customer (
+    customer_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    contact VARCHAR(20),
+    address TEXT,
+    milk_type VARCHAR(20) NOT NULL
 );
 
-
-Entries Table
-CREATE TABLE entries (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    customer_id INT,
-    entry_date DATE,
-    amount DOUBLE,
-    description VARCHAR(255),
-    FOREIGN KEY (customer_id) REFERENCES customers(id)
+CREATE TABLE milk_entry (
+    milk_entry_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id INT NOT NULL,
+    milk_type VARCHAR(20) NOT NULL,
+    quantity_liters DECIMAL(10,2) NOT NULL,
+    rate_per_liter DECIMAL(10,2) NOT NULL,
+    entry_date DATE NOT NULL,
+    FOREIGN KEY (customer_id)
+        REFERENCES customer(customer_id)
         ON DELETE CASCADE
 );
+
+CREATE TABLE product (
+    product_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id INT NOT NULL,
+    product_name VARCHAR(100) NOT NULL,
+    quantity_kg DECIMAL(10,3) NOT NULL,
+    rate_per_kg DECIMAL(10,2) NOT NULL,
+    entry_date DATE NOT NULL,
+    FOREIGN KEY (customer_id)
+        REFERENCES customer(customer_id)
+        ON DELETE CASCADE
+);
+
+INSERT INTO admin(username,password)
+VALUES ('admin','admin123');
 
 ```
 <img width="1918" height="920" alt="image" src="https://github.com/user-attachments/assets/3364df65-2c3b-4695-8c5f-98f14ebf8520" />
